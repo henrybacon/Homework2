@@ -1,0 +1,16 @@
+//Problem 3 ©HenryBacon
+
+background(255);
+size(500,500);
+
+int column = 15;
+int rows = 15;
+
+for ( int a=1; a<column; a=a+1) {
+for ( int b=1; b<rows; b=b+1) {
+      noStroke();
+      fill (random(255),random(255),random(255));
+      ellipse ( a*(500/column), b*(500/rows), 30, 30);
+    }
+ }
+ 
