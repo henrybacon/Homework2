@@ -1,0 +1,27 @@
+//Made an Animation couldnt figure out how to make the bars update to mouse Y individually 
+
+void setup(){
+background(0);
+size(500,500);
+frameRate(18);
+}
+
+
+
+
+void draw(){
+  rec();
+  
+}
+
+  
+void rec(){
+  int x =20;
+  while (x < 480){
+    noStroke();
+    fill(random(255),random(255),random(255));
+   rect(x, 480, 10,random(-445));
+  x = x +15;
+  
+  }
+}
