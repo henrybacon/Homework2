@@ -1,0 +1,24 @@
+//Problem 4 ©Henrybacon
+
+background(255);
+size(500,500);
+
+int color1 = 255;
+int color2 = 77;
+int color3 = 1;
+int y = 25;
+
+while (y < 480){
+  int x = 25;
+  while (x < 480){
+  noStroke();
+    fill(color1,color2,color3);
+  ellipse(x,y,25,25);
+   x = x + 30;
+  }
+ y = y +30;
+ color1 = color1 -10;
+ color2 = color2+10;
+ color3 = color3+15;
+}
+ 
