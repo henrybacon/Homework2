@@ -1,3 +1,3 @@
-1. Classes are like cookie cutters because they make a cookie but they are not themselves cookies. That is what an object is.
+1. Classes are like cookie cutters because they make a cookie but they are not themselves cookies. They will define what the object/cookie is like.That is what an object is.
 2. A instance variable is quite different than a regular one because unlike a regular variable instance variables are very specific and only effect inside a class.
 3. There are two instances of ball created. 
